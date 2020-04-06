@@ -1,0 +1,158 @@
+PODS:
+  - AppCenter/Analytics (1.14.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.14.0)
+  - AppCenter/Crashes (1.14.0):
+    - AppCenter/Core
+  - AppCenterReactNativeShared (1.13.0):
+    - AppCenter/Core (= 1.14.0)
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - React (0.59.9):
+    - React/Core (= 0.59.9)
+  - react-native-camera (2.9.0):
+    - React
+    - react-native-camera/RCT (= 2.9.0)
+    - react-native-camera/RN (= 2.9.0)
+  - react-native-camera/RCT (2.9.0):
+    - React
+  - react-native-camera/RN (2.9.0):
+    - React
+  - react-native-cookies (2.0.7):
+    - React
+  - react-native-netinfo (4.7.0):
+    - React
+  - react-native-webview (9.0.1):
+    - React
+  - React/Core (0.59.9):
+    - yoga (= 0.59.9.React)
+  - React/CxxBridge (0.59.9):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.9):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.9):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.9)
+  - React/jsi (0.59.9):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.9):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.9)
+  - React/RCTAnimation (0.59.9):
+    - React/Core
+  - React/RCTBlob (0.59.9):
+    - React/Core
+  - React/RCTImage (0.59.9):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.59.9):
+    - React/Core
+  - React/RCTText (0.59.9):
+    - React/Core
+  - React/RCTWebSocket (0.59.9):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNCAsyncStorage (1.8.1):
+    - React
+  - RNGestureHandler (1.6.0):
+    - React
+  - RNScreens (2.2.0):
+    - React
+  - yoga (0.59.9.React)
+
+DEPENDENCIES:
+  - AppCenter/Analytics (~> 1.14.0)
+  - AppCenter/Crashes (~> 1.14.0)
+  - AppCenterReactNativeShared (~> 1.13.0)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
+  - "react-native-cookies (from `../node_modules/@react-native-community/cookies`)"
+  - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
+  - react-native-webview (from `../node_modules/react-native-webview`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNScreens (from `../node_modules/react-native-screens`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppCenter
+    - AppCenterReactNativeShared
+    - boost-for-react-native
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
+  react-native-cookies:
+    :path: "../node_modules/@react-native-community/cookies"
+  react-native-netinfo:
+    :path: "../node_modules/@react-native-community/netinfo"
+  react-native-webview:
+    :path: "../node_modules/react-native-webview"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-community/async-storage"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  AppCenter: 02c5efe08d3bbab5421ae41d5f7aa7238906b817
+  AppCenterReactNativeShared: 00f470c3c17b47718db8733cbe811ccdcfd86282
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
+  React: a86b92f00edbe1873a63e4a212c29b7a7ad5224f
+  react-native-camera: 571e4cfe70e7021e9077c1699a53e659db971f96
+  react-native-cookies: 379becdac3ac4aa0e0eeec9dd10869a0043b97a9
+  react-native-netinfo: ddaca8bbb9e6e914b1a23787ccb879bc642931c9
+  react-native-webview: 3f2f9934ba8633a170d209cb84045b6cbc5e5f48
+  RNCAsyncStorage: e0dd7c8a36543b4ef84969acd9f8aceba3a92dc2
+  RNGestureHandler: dde546180bf24af0b5f737c8ad04b6f3fa51609a
+  RNScreens: 812b79d384e2bea7eebc4ec981469160d4948fd5
+  yoga: 03ff42a6f223fb88deeaed60249020d80c3091ee
+
+PODFILE CHECKSUM: 2578b1754dab01bc2d0d2a660ff57d5256acdb3f
+
+COCOAPODS: 1.8.4
