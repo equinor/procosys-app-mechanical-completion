@@ -81,13 +81,7 @@ class LoginScreen extends Component {
       ]
     }
 
-    this._handleAppStateChange = this._handleAppStateChange.bind(this);
-
-    AppState.addEventListener('change', this._handleAppStateChange);
-
     this.adContext = new ReactNativeAD(ctxConfig);
-    this.validateLogin();
-
   }
 
   static propTypes = {
@@ -95,32 +89,8 @@ class LoginScreen extends Component {
     appVersion: PropTypes.string,
   };
 
-  /**
-   * Used for handling 2-factor auth where webkit navigates while app is in the background
-   * which seems to make it the HTML request fail. 
-   * Workaround: re-trigger the auth process, which will suceed automatically as the user is
-   * successfully authenticated on microsoftonline.
-   */
-  _handleAppStateChange(nextAppState) {
-    if (
-      this.state.appState.match(/inactive|background/) &&
-      nextAppState === 'active'
-    ) {
-      this.setState({viewLogin: false});
-      setTimeout(() => this.setState({viewLogin: true}), 100);
-    }
-
-    this.setState({
-      appState: nextAppState
-    });
-  }
-
-  componentWillUnmount() {
-    AppState.removeEventListener('change', this._handleAppStateChange);
-  }
-
   componentDidUpdate() {
-    if (this.props.user.loggedIn) {
+    if (this.state.isValidating===false && this.props.user.loggedIn) {
       this.props.navigation.navigate('IntegrityCheck');
       return;
     }
@@ -151,8 +121,6 @@ class LoginScreen extends Component {
   }
 
   onLoginButtonClick = () => {
-    // TODO: Log user in to Azure AD
-
     this.setState({
       viewLogin: true
     })
@@ -175,7 +143,7 @@ class LoginScreen extends Component {
     return (
       <SafeAreaView style={{flex: 1}}>
         <View style={{flex: 1}}>
-          <ADLoginView onSuccess={this.onAdLoginSuccess} context={ReactNativeAD.getContext(AzureADClientId)} hideAfterLogin={true} />
+          <ADLoginView onSuccess={this.onAdLoginSuccess.bind(this)} context={ReactNativeAD.getContext(AzureADClientId)} />
         </View>
         <TouchableOpacity onPress={this.onCloseWebviewClick}>
           <View style={{justifyContent: 'center', alignItems: 'center', minHeight: 60}}>
