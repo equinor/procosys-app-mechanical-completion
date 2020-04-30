@@ -21,7 +21,7 @@ import NavigationService from './NavigationService';
   * @param {String} url URL in the form of "mcapp://<version>:<intent>:<data>"
   * 
   */
-const handleUrl = (url) => {
+const handleUrl = async (url) => {
   if (!url || url === "") throw "Missing parameter";
 
   //Remove Schema: 
@@ -32,7 +32,7 @@ const handleUrl = (url) => {
 
   switch (version.toLowerCase()) {
     case SUPPORTED_URL_VERSION.V1:
-      handleUrlFor_V1(urlWithoutTrailingSlash);
+      await handleUrlFor_V1(urlWithoutTrailingSlash);
       break;
     default: 
     throw "Unsupported URL version";
@@ -46,13 +46,13 @@ const handleUrl = (url) => {
  * 
  * 
  */
-const handleUrlFor_V1 = (pUrl) => {
+const handleUrlFor_V1 = async (pUrl) => {
   if (!pUrl || pUrl === "") throw "Missing parameter";
   const [version, urlType, urlParam] = pUrl.split(":");
   if (version.toLowerCase() != SUPPORTED_URL_VERSION.V1) throw "Wrong handler accessed for V1 URL";
   switch (urlType.toLowerCase()) {
     case SUPPORTED_URL_TYPES.TAGSCOPE:
-      navigateToTagScope(urlParam);
+      await navigateToTagScope(urlParam);
       break;
     default: 
       throw "Unsupported URL format";
