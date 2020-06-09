@@ -124,7 +124,7 @@ class MCCRContainerView extends React.Component {
 
   uploadAttachment(title, imagePath, type, filename) {
     return new Promise((resolve, reject) => {
-      return AttachmentService.uploadChecklistAttachment(imagePath,this.state.checklist.CheckList.Id,filename, type, title)
+      return AttachmentService.uploadChecklistAttachment(imagePath,this.state.checklist.CheckList.Id,type, filename, title)
       .then(response => {
         if (response.status == 204) {
           resolve();
