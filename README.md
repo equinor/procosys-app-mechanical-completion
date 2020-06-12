@@ -27,7 +27,7 @@ npx react-native run-android
 
 ## Compatibility problems with support libraries? 
 ```bash
-npx jettify
+npx jetify
 ```
 
 ## Visual Studio Code Extensions
