@@ -74,6 +74,9 @@ class CreatePunchItemView extends React.Component {
 
   onUploadAttachment = (title, imageUri, type, filename) => {
     return new Promise((resolve, reject) => {
+      if (filename ===  undefined) {
+        filename =  imageUri.split("/").pop()
+      }
       AttachmentService.uploadTemporaryAttachment(imageUri, type, filename, title)
       .then(response => {
         if (response.status !== 200) {
