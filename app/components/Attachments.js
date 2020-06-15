@@ -38,10 +38,15 @@ class Attachments extends Component {
       Alert.alert("No image selected");
       return;
     }
-    if (title === '') {
+    if (title === '' || title === undefined) {
       Alert.alert("Title can not be empty");
       return;
     }
+
+    if (image.fileName ===  undefined) {
+      image.fileName =  image.uri.split("/").pop()
+    }
+
     this.setState({uploading: true}, () => {
       this.props.upload(title, image.uri, image.type, image.fileName)
       .then(() => {
@@ -89,6 +94,9 @@ class Attachments extends Component {
         return;
       }
       var update = {selectedImage: response};
+      if (response.fileName ===  undefined) {
+        response.fileName =  response.uri.split("/").pop()
+      }
       if (this.state.attachmentTitle === '') {
         update.attachmentTitle = response.fileName;
       }

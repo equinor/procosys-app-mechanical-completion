@@ -225,6 +225,7 @@ export const uploadPunchItemAttachment = (localFileUri,punchId, mimeType, filena
  */
 export const uploadTemporaryAttachment = (localFileUri, type, filename) => {
   let remoteUrl = getUrlForEndpoint("PunchListItem/TempAttachment");
+
   return uploadFile(remoteUrl, localFileUri, type, filename)
 }
 
