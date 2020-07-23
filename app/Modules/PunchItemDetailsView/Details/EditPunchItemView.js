@@ -70,7 +70,7 @@ class EditPunchItemView extends React.Component {
     Promise.all([punchDetails, punchComments])
     .then(result => {
       const [details, comments] = result;
-      const isEditable = (details.ClearedAt == null && details.RejectedAt == null);
+      const isEditable = details.ClearedAt == null;
       this.setState({
         punchDetails: details,
         description: details.Description,
