@@ -27,7 +27,7 @@
     "moment": "2.20.1",
     "prop-types": "15.6.0",
     "qs": "^6.6.0",
-    "react": "16.8.3",
+    "react": "16.14.0",
     "react-native": "0.59.9",
     "react-native-azure-ad": "https://github.com/Cnordbo/react-native-azure-ad/",
     "react-native-camera": "2.9.0",
