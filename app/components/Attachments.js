@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Modal, TextInput, Image, Butt
 import Icon from 'react-native-vector-icons/Ionicons';
 import Colors from '../stylesheets/colors';
 import propTypes from 'prop-types';
-import ImagePicker from 'react-native-image-picker';
+import * as ImagePicker from 'react-native-image-picker';
 import Spinner from './Spinner';
 
 
@@ -79,29 +79,40 @@ class Attachments extends Component {
     })
   }
 
-  selectImage = () => {
+  handleFileSelection = (response) => {
+    if (response.error) {
+      Alert.alert(response.error);
+      return;
+    }
+    if (response.didCancel) {
+      return;
+    }
+    var update = {selectedImage: response};
+    if (response.fileName ===  undefined) {
+      response.fileName =  response.uri.split("/").pop();
+    }
+    if (this.state.attachmentTitle === '') {
+      update.attachmentTitle = response.fileName.replace('rn_image_picker_lib_temp_', '');
+    }
+    this.setState(update);
+  }
+
+  selectImageFromCamera = () => {
     const pickerOptions = {
       mediaType: 'photo',
-      noData: true
+      includeBase64: false
     };
 
-    ImagePicker.showImagePicker(pickerOptions, (response) => {
-      if (response.error) {
-        Alert.alert(response.error);
-        return;
-      }
-      if (response.didCancel) {
-        return;
-      }
-      var update = {selectedImage: response};
-      if (response.fileName ===  undefined) {
-        response.fileName =  response.uri.split("/").pop()
-      }
-      if (this.state.attachmentTitle === '') {
-        update.attachmentTitle = response.fileName;
-      }
-      this.setState(update);
-    });
+    ImagePicker.launchCamera(pickerOptions, this.handleFileSelection);
+  }
+
+  selectImageFromLibrary = () => {
+    const pickerOptions = {
+      mediaType: 'photo',
+      includeBase64: false
+    };
+
+    ImagePicker.launchImageLibrary(pickerOptions, this.handleFileSelection);
   }
 
   toggleModal = () => {
@@ -143,8 +154,10 @@ class Attachments extends Component {
                 </View>
               )}
               <Text>Attachment</Text>
-              {!this.state.uploading && (
-                <Button title="Select image" onPress={this.selectImage} />
+              {!this.state.uploading && (<>
+                <Button title="Use Camera" onPress={this.selectImageFromCamera} />
+                <Button title="Select Image from photolibrary" onPress={this.selectImageFromLibrary} />
+                </>
               )}
               {this.state.uploading && (
                 <View style={{flexDirection: 'row', height: 120}}>
