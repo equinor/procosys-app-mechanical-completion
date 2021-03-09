@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Modal, TextInput, Image, Button, Alert } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Modal, TextInput, Image, Platform, Button, Alert, PermissionsAndroid } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Colors from '../stylesheets/colors';
 import propTypes from 'prop-types';
 import * as ImagePicker from 'react-native-image-picker';
 import Spinner from './Spinner';
 
+const isAndroid = Platform.OS === 'android'
 
 /**
  * @example
@@ -97,7 +98,26 @@ class Attachments extends Component {
     this.setState(update);
   }
 
-  selectImageFromCamera = () => {
+  requestCameraPermission = async () => {
+    if (!isAndroid)
+      return true;
+
+    const granted = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.CAMERA);
+    if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+      return true;
+    }
+    return false;
+  };
+
+  selectImageFromCamera = async () => {
+    try {
+      var alloved = await this.requestCameraPermission();
+      if (alloved===false)
+        return;
+    } catch (err) {
+      console.warn(err);
+    }
+    
     const pickerOptions = {
       mediaType: 'photo',
       includeBase64: false
