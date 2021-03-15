@@ -26,6 +26,7 @@ target 'McProCoSys' do
   pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
   pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
   pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
   pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
   # Explicitly include Yoga if you are using RN >= 0.42.0
   pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
