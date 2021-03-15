@@ -1,0 +1,6 @@
+framework module appcenter_analytics {
+  umbrella header "appcenter-analytics-umbrella.h"
+
+  export *
+  module * { export * }
+}

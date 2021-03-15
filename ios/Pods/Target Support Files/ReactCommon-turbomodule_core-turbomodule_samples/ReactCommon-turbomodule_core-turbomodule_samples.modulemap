@@ -1,0 +1,6 @@
+framework module ReactCommon {
+  umbrella header "ReactCommon-turbomodule_core-turbomodule_samples-umbrella.h"
+
+  export *
+  module * { export * }
+}

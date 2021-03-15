@@ -1,0 +1,6 @@
+framework module ReactNativeExceptionHandler {
+  umbrella header "ReactNativeExceptionHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

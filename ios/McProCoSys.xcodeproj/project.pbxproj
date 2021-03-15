@@ -10,6 +10,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5B55910425FFD29100E85097 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		5BB37F9825EF781700B9B95A /* Equinor-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB37F8025EF781600B9B95A /* Equinor-Medium.ttf */; };
 		5BB37F9925EF781700B9B95A /* Equinor-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB37F8125EF781600B9B95A /* Equinor-LightItalic.ttf */; };
 		5BB37F9A25EF781700B9B95A /* Equinor-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB37F8225EF781700B9B95A /* Equinor-Regular.ttf */; };
@@ -57,20 +58,29 @@
 		5BB3800825EF7BA000B9B95A /* CL-PA.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800025EF7BA000B9B95A /* CL-PA.png */; };
 		5BB3800925EF7BA000B9B95A /* CL-OK.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800125EF7BA000B9B95A /* CL-OK.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		ADB7F90F44D33891308B1523 /* libPods-McProCoSys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBE5E76F5DFE790C17C2141 /* libPods-McProCoSys.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		11E797485DB3D881A79964AF /* Pods-McProCoSys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.debug.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* McProCoSys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McProCoSys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = McProCoSys/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = McProCoSys/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = McProCoSys/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = McProCoSys/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = McProCoSys/main.m; sourceTree = "<group>"; };
-		27F5FD7EE0D8EEE3444C782E /* Pods-McProCoSys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.release.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.release.xcconfig"; sourceTree = "<group>"; };
-		2A9D14C8CE42549EDAC22684 /* Pods-McProCoSys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.debug.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.debug.xcconfig"; sourceTree = "<group>"; };
-		3DBE5E76F5DFE790C17C2141 /* libPods-McProCoSys.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-McProCoSys.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B558E7725FFA67B00E85097 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCenterReactNativeCrashes.a; path = "../../procosys-app-mechanical-completion/ios/libAppCenterReactNativeCrashes.a"; sourceTree = "<group>"; };
+		5B558E7825FFA67B00E85097 /* libPods-McProCoSys.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-McProCoSys.a"; path = "../../../Library/Developer/Xcode/DerivedData/McProCoSys-fbpzdhulphwqygbtwjszwsrlioio/Build/Products/Debug-iphoneos/libPods-McProCoSys.a"; sourceTree = "<group>"; };
+		5B558E7925FFA67B00E85097 /* libRNFS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNFS.a; path = "../../procosys-app-mechanical-completion/ios/libRNFS.a"; sourceTree = "<group>"; };
+		5B558E7A25FFA67B00E85097 /* libReactNativeExceptionHandler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReactNativeExceptionHandler.a; path = "../../procosys-app-mechanical-completion/ios/libReactNativeExceptionHandler.a"; sourceTree = "<group>"; };
+		5B558E7B25FFA67B00E85097 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCenterReactNative.a; path = "../../procosys-app-mechanical-completion/ios/libAppCenterReactNative.a"; sourceTree = "<group>"; };
+		5B558E7C25FFA67B00E85097 /* libRNImagePicker.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNImagePicker.a; path = "../../procosys-app-mechanical-completion/ios/libRNImagePicker.a"; sourceTree = "<group>"; };
+		5B558E7D25FFA67B00E85097 /* libRNVectorIcons.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNVectorIcons.a; path = "../../procosys-app-mechanical-completion/ios/libRNVectorIcons.a"; sourceTree = "<group>"; };
+		5B558E7E25FFA67B00E85097 /* libRCTRestart.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRCTRestart.a; path = "../../procosys-app-mechanical-completion/ios/libRCTRestart.a"; sourceTree = "<group>"; };
+		5B558E7F25FFA67B00E85097 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCenterReactNativeAnalytics.a; path = "../../procosys-app-mechanical-completion/ios/libAppCenterReactNativeAnalytics.a"; sourceTree = "<group>"; };
+		5B558E8025FFA67B00E85097 /* libRNFileViewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNFileViewer.a; path = "../../procosys-app-mechanical-completion/ios/libRNFileViewer.a"; sourceTree = "<group>"; };
+		5B558E8125FFA67B00E85097 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNDeviceInfo.a; path = "../../procosys-app-mechanical-completion/ios/libRNDeviceInfo.a"; sourceTree = "<group>"; };
+		5B558E8225FFA67B00E85097 /* libSplashScreen.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSplashScreen.a; path = "../../procosys-app-mechanical-completion/ios/libSplashScreen.a"; sourceTree = "<group>"; };
 		5BB37F8025EF781600B9B95A /* Equinor-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Equinor-Medium.ttf"; path = "../resources/fonts/Equinor-Medium.ttf"; sourceTree = "<group>"; };
 		5BB37F8125EF781600B9B95A /* Equinor-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Equinor-LightItalic.ttf"; path = "../resources/fonts/Equinor-LightItalic.ttf"; sourceTree = "<group>"; };
 		5BB37F8225EF781700B9B95A /* Equinor-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Equinor-Regular.ttf"; path = "../resources/fonts/Equinor-Regular.ttf"; sourceTree = "<group>"; };
@@ -134,6 +144,8 @@
 		5BB3800125EF7BA000B9B95A /* CL-OK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CL-OK.png"; path = "../resources/images/status/CL-OK.png"; sourceTree = "<group>"; };
 		5BB3800E25EF7BF300B9B95A /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = McProCoSys/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1CB3F6522957916D48D2B0D /* Pods_McProCoSys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McProCoSys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.release.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -143,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB7F90F44D33891308B1523 /* libPods-McProCoSys.a in Frameworks */,
+				5B55910425FFD29100E85097 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +165,8 @@
 		028C5A62634E6B6798AEC6CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A9D14C8CE42549EDAC22684 /* Pods-McProCoSys.debug.xcconfig */,
-				27F5FD7EE0D8EEE3444C782E /* Pods-McProCoSys.release.xcconfig */,
+				11E797485DB3D881A79964AF /* Pods-McProCoSys.debug.xcconfig */,
+				D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -178,7 +190,7 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3DBE5E76F5DFE790C17C2141 /* libPods-McProCoSys.a */,
+				C1CB3F6522957916D48D2B0D /* Pods_McProCoSys.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,6 +267,18 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5B558E7B25FFA67B00E85097 /* libAppCenterReactNative.a */,
+				5B558E7F25FFA67B00E85097 /* libAppCenterReactNativeAnalytics.a */,
+				5B558E7725FFA67B00E85097 /* libAppCenterReactNativeCrashes.a */,
+				5B558E7825FFA67B00E85097 /* libPods-McProCoSys.a */,
+				5B558E7E25FFA67B00E85097 /* libRCTRestart.a */,
+				5B558E7A25FFA67B00E85097 /* libReactNativeExceptionHandler.a */,
+				5B558E8125FFA67B00E85097 /* libRNDeviceInfo.a */,
+				5B558E8025FFA67B00E85097 /* libRNFileViewer.a */,
+				5B558E7925FFA67B00E85097 /* libRNFS.a */,
+				5B558E7C25FFA67B00E85097 /* libRNImagePicker.a */,
+				5B558E7D25FFA67B00E85097 /* libRNVectorIcons.a */,
+				5B558E8225FFA67B00E85097 /* libSplashScreen.a */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -289,13 +313,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "McProCoSys" */;
 			buildPhases = (
-				72304FA4DD263280738C6CE3 /* [CP] Check Pods Manifest.lock */,
+				EB61ED7BF1D3337E1FC3FB4A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				931B1770B5B14490DB0F5269 /* [CP] Copy Pods Resources */,
+				A59A4EC559185B536E627DBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,10 +336,10 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = V6HQ25AD64;
+						DevelopmentTeam = 2F7Q634FSX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -411,7 +435,117 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		72304FA4DD263280738C6CE3 /* [CP] Check Pods Manifest.lock */ = {
+		A59A4EC559185B536E627DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-McProCoSys/Pods-McProCoSys-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseDatabase/FirebaseDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTRestart/RCTRestart.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/RNDeviceInfo/RNDeviceInfo.framework",
+				"${BUILT_PRODUCTS_DIR}/RNFBApp/RNFBApp.framework",
+				"${BUILT_PRODUCTS_DIR}/RNFBDatabase/RNFBDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/RNFS/RNFS.framework",
+				"${BUILT_PRODUCTS_DIR}/RNFileViewer/RNFileViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/React-perflogger/reactperflogger.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon-turbomodule_core-turbomodule_samples/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactNativeExceptionHandler/ReactNativeExceptionHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-camera/react_native_camera.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-cookies/react_native_cookies.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-image-picker/react_native_image_picker.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-netinfo/react_native_netinfo.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-splash-screen/react_native_splash_screen.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-webview/react_native_webview.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTRestart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCAsyncStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNDeviceInfo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNFBApp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNFBDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNFS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNFileViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/reactperflogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeExceptionHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_camera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_cookies.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_image_picker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_netinfo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_splash_screen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_webview.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-McProCoSys/Pods-McProCoSys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB61ED7BF1D3337E1FC3FB4A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,24 +565,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		931B1770B5B14490DB0F5269 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-McProCoSys/Pods-McProCoSys-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-McProCoSys/Pods-McProCoSys-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -487,7 +603,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9D14C8CE42549EDAC22684 /* Pods-McProCoSys.debug.xcconfig */;
+			baseConfigurationReference = 11E797485DB3D881A79964AF /* Pods-McProCoSys.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -495,10 +611,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = V6HQ25AD64;
+				DEVELOPMENT_TEAM = 2F7Q634FSX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = McProCoSys/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.0.1;
 				OTHER_LDFLAGS = (
@@ -518,7 +634,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F5FD7EE0D8EEE3444C782E /* Pods-McProCoSys.release.xcconfig */;
+			baseConfigurationReference = D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -526,9 +642,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = V6HQ25AD64;
+				DEVELOPMENT_TEAM = 2F7Q634FSX;
 				INFOPLIST_FILE = McProCoSys/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.0.1;
 				OTHER_LDFLAGS = (
@@ -568,6 +684,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -577,6 +694,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -592,7 +710,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -628,6 +746,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -637,6 +756,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -645,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",

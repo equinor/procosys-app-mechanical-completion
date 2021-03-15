@@ -1,0 +1,6 @@
+framework module appcenter_crashes {
+  umbrella header "appcenter-crashes-umbrella.h"
+
+  export *
+  module * { export * }
+}

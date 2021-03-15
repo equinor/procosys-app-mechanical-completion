@@ -1,6 +1,9 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
 #import <Foundation/Foundation.h>
 
-@class MSWrapperSdk;
+@class MSACWrapperSdk;
 
 @interface AppCenterReactNativeShared : NSObject
 
@@ -10,9 +13,9 @@
 
 + (void)configureAppCenter;
 
-+ (MSWrapperSdk *)getWrapperSdk;
++ (MSACWrapperSdk *)getWrapperSdk;
 
-+ (void)setWrapperSdk:(MSWrapperSdk *)sdk;
++ (void)setWrapperSdk:(MSACWrapperSdk *)sdk;
 
 + (void)setStartAutomatically:(BOOL)shouldStartAutomatically;
 

@@ -1,0 +1,6 @@
+framework module appcenter_core {
+  umbrella header "appcenter-core-umbrella.h"
+
+  export *
+  module * { export * }
+}
