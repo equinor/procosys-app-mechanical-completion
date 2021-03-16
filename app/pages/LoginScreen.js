@@ -13,8 +13,8 @@ import {
 
 import { connect } from 'react-redux';
 
-import statoilLogo from '../../resources/images/Equinor_logo.png';
 import logo from '../../resources/images/mc_app_ikon_transparent.png';
+import statoilLogo from '../../resources/images/Equinor_logo.png';
 import { ACCESS_TOKEN_RECEIVED } from '../actions';
 
 const styles = StyleSheet.create({
