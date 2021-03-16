@@ -340,7 +340,7 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 2F7Q634FSX;
+						DevelopmentTeam = V6HQ25AD64;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -613,7 +613,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = 2F7Q634FSX;
+				DEVELOPMENT_TEAM = V6HQ25AD64;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = McProCoSys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -644,7 +644,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = 2F7Q634FSX;
+				DEVELOPMENT_TEAM = V6HQ25AD64;
 				INFOPLIST_FILE = McProCoSys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
