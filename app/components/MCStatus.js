@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Image, Text } from 'react-native';
 import propTypes from 'prop-types';
+import Images from '../../resources/images/Images';
 
 class MCStatus extends React.PureComponent {
   getStatusImage(mcStatus) {
@@ -8,7 +9,7 @@ class MCStatus extends React.PureComponent {
       case 'OK':
         return (
           <Image
-            source={require('../../resources/images/status/OK.png')}
+            source={Images.Ok}
             style={styles.iconStyle}
             resizeMode="contain"
           />

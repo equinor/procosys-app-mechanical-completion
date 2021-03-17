@@ -14,7 +14,8 @@ import {
 import { connect } from 'react-redux';
 
 var logo = require('./mc_app_ikon_transparent.png');
-var statoilLogo = require('./Equinor_logo.png');
+import Images from '../../resources/images/Images';
+
 import { ACCESS_TOKEN_RECEIVED } from '../actions';
 
 const styles = StyleSheet.create({
@@ -177,7 +178,7 @@ class LoginScreen extends Component {
         <SafeAreaView style={styles.wrapper}>
         
           <View style={styles.splashTop}>
-            <Image source={statoilLogo} />
+            <Image source={Images.EquinorLogo} />
           </View>
           <View style={styles.splashBottom}>
             <View style={styles.splashAppLogo}>
