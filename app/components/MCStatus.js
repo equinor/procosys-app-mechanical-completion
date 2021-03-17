@@ -9,7 +9,7 @@ class MCStatus extends React.PureComponent {
       case 'OK':
         return (
           <Image
-            source={images.Ok}
+            source={images.OS}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -17,7 +17,7 @@ class MCStatus extends React.PureComponent {
       case 'PA':
         return (
           <Image
-            source={require('../../resources/images/status/PA.png')}
+            source={images.PA}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -25,7 +25,7 @@ class MCStatus extends React.PureComponent {
       case 'PB':
         return (
           <Image
-            source={require('../../resources/images/status/PB.png')}
+            source={images.PB}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -33,7 +33,7 @@ class MCStatus extends React.PureComponent {
       case 'OS':
         return (
           <Image
-            source={require('../../resources/images/status/OS.png')}
+            source={images.OS}
             style={styles.iconStyle}
             resizeMode="contain"
           />

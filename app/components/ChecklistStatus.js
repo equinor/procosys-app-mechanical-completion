@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Image, Text } from 'react-native';
 import propTypes from 'prop-types';
+import images from 'resources/images';
 
 class ChecklistStatus extends React.PureComponent {
   getStatusImage(mcStatus) {
@@ -8,7 +9,7 @@ class ChecklistStatus extends React.PureComponent {
       case 'OK':
         return (
           <Image
-            source={require('../../resources/images/status/CL-OK.png')}
+            source={images.CLOK}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -16,7 +17,7 @@ class ChecklistStatus extends React.PureComponent {
       case 'PA':
         return (
           <Image
-            source={require('../../resources/images/status/CL-PA.png')}
+            source={images.CLPA}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -24,7 +25,7 @@ class ChecklistStatus extends React.PureComponent {
       case 'PB':
         return (
           <Image
-            source={require('../../resources/images/status/CL-PB.png')}
+            source={images.CLPB}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -32,7 +33,7 @@ class ChecklistStatus extends React.PureComponent {
       case 'OS':
         return (
           <Image
-            source={require('../../resources/images/status/CL-OS.png')}
+            source={images.CLOS}
             style={styles.iconStyle}
             resizeMode="contain"
           />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Image, Text } from 'react-native';
 import propTypes from 'prop-types';
+import images from 'resources/images';
 
 /**
  * Punch Item Status Icon
@@ -14,7 +15,7 @@ class PunchItemStatusIcon extends React.PureComponent {
       case 'PA':
         return (
           <Image
-            source={require('../../resources/images/status/CL-PA.png')}
+            source={images.CLPA}
             style={styles.iconStyle}
             resizeMode="contain"
           />
@@ -22,7 +23,7 @@ class PunchItemStatusIcon extends React.PureComponent {
       case 'PB':
         return (
           <Image
-            source={require('../../resources/images/status/CL-PB.png')}
+            source={images.CLPB}
             style={styles.iconStyle}
             resizeMode="contain"
           />

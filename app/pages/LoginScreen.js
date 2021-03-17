@@ -13,7 +13,6 @@ import {
 
 import { connect } from 'react-redux';
 
-var logo = require('./mc_app_ikon_transparent.png');
 import images from 'resources/images'
 
 import { ACCESS_TOKEN_RECEIVED } from '../actions';
@@ -182,7 +181,7 @@ class LoginScreen extends Component {
           </View>
           <View style={styles.splashBottom}>
             <View style={styles.splashAppLogo}>
-              <Image source={logo} style={{ height: 150 }} resizeMode="contain" />
+              <Image source={images.Logo} style={{ height: 150 }} resizeMode="contain" />
               <View style={{flexDirection: DeviceInfo.isTablet() ? 'row' : 'column', marginTop: 20}}>
                 <Text style={{ fontWeight: '400', color: 'rgb(134,0,29)', fontSize: 32 }}>
                   Mechanical 
