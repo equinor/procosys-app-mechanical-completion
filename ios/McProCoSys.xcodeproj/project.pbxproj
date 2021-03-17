@@ -59,7 +59,6 @@
 		5BB3800825EF7BA000B9B95A /* CL-PA.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800025EF7BA000B9B95A /* CL-PA.png */; };
 		5BB3800925EF7BA000B9B95A /* CL-OK.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800125EF7BA000B9B95A /* CL-OK.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F75E3BB834FF860C4F54F7FC /* Pods_McProCoSys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB3F6522957916D48D2B0D /* Pods_McProCoSys.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,7 +145,6 @@
 		5BB3800125EF7BA000B9B95A /* CL-OK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CL-OK.png"; path = "../resources/images/status/CL-OK.png"; sourceTree = "<group>"; };
 		5BB3800E25EF7BF300B9B95A /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = McProCoSys/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1CB3F6522957916D48D2B0D /* Pods_McProCoSys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McProCoSys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.release.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -158,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B55910425FFD29100E85097 /* JavaScriptCore.framework in Frameworks */,
-				F75E3BB834FF860C4F54F7FC /* Pods_McProCoSys.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +190,6 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				C1CB3F6522957916D48D2B0D /* Pods_McProCoSys.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
