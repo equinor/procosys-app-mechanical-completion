@@ -14,7 +14,7 @@ import {
 import { connect } from 'react-redux';
 
 var logo = require('./mc_app_ikon_transparent.png');
-import Images from '../../resources/images/Images';
+import images from 'resources/images'
 
 import { ACCESS_TOKEN_RECEIVED } from '../actions';
 
@@ -178,7 +178,7 @@ class LoginScreen extends Component {
         <SafeAreaView style={styles.wrapper}>
         
           <View style={styles.splashTop}>
-            <Image source={Images.EquinorLogo} />
+            <Image source={images.EquinorLogo} />
           </View>
           <View style={styles.splashBottom}>
             <View style={styles.splashAppLogo}>
