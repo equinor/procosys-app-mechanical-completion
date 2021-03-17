@@ -59,6 +59,7 @@
 		5BB3800825EF7BA000B9B95A /* CL-PA.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800025EF7BA000B9B95A /* CL-PA.png */; };
 		5BB3800925EF7BA000B9B95A /* CL-OK.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800125EF7BA000B9B95A /* CL-OK.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F75E3BB834FF860C4F54F7FC /* Pods_McProCoSys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB3F6522957916D48D2B0D /* Pods_McProCoSys.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B55910425FFD29100E85097 /* JavaScriptCore.framework in Frameworks */,
+				F75E3BB834FF860C4F54F7FC /* Pods_McProCoSys.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
