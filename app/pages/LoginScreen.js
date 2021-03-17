@@ -13,7 +13,7 @@ import {
 
 import { connect } from 'react-redux';
 
-var logo = require('../../resources/images/mc_app_ikon_transparent.png');
+var logo = require('./mc_app_ikon_transparent.png');
 var statoilLogo = require('../../resources/images/Equinor_logo.png');
 import { ACCESS_TOKEN_RECEIVED } from '../actions';
 
