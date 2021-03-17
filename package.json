@@ -9,8 +9,8 @@
   },
   "rnpm": {
     "assets": [
-      "./resources/fonts",
-      "./resources/images"
+      "./resources/fonts/",
+      "./resources/images/"
     ]
   },
   "dependencies": {

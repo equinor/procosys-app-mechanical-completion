@@ -27,7 +27,7 @@
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>We do not use location, if you see this, please deny and report it</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We do not use location, if you see this, please deny and report it</string>
+	<string/>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string> Selecting images to upload </string>
 	<key>UIAppFonts</key>
@@ -88,8 +88,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
