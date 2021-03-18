@@ -1,7 +1,7 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '12.0'
+platform :ios, '10.0'
 
 config = use_native_modules!
 use_react_native!(
@@ -13,21 +13,21 @@ use_react_native!(
 def pods()
   pod 'ReactCommon/turbomodule/samples', :path => '../node_modules/react-native/ReactCommon'
 
-  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
-  
   # Additional Pods which aren't included in the default Podfile
   pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga', :modular_headers => true
   pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   use_native_modules!
 end
 
 target 'McProCoSys' do
   pods()
+  
   post_install do |installer|
     react_native_post_install(installer)
     installer.pods_project.targets.each do |target|
       target.build_configurations.each do |config|
-        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
         config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
         config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
         config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
