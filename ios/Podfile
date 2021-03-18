@@ -3,7 +3,6 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '12.0'
 
-use_frameworks!
 config = use_native_modules!
 use_react_native!(
   :path => config[:reactNativePath],
@@ -23,7 +22,6 @@ def pods()
 end
 
 target 'McProCoSys' do
-  project 'McProCoSys'
   pods()
   post_install do |installer|
     react_native_post_install(installer)

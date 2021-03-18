@@ -1,6 +1,0 @@
-framework module RNFileViewer {
-  umbrella header "RNFileViewer-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -59,19 +59,20 @@
 		5BB3800825EF7BA000B9B95A /* CL-PA.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800025EF7BA000B9B95A /* CL-PA.png */; };
 		5BB3800925EF7BA000B9B95A /* CL-OK.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3800125EF7BA000B9B95A /* CL-OK.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D2B5ACA006A473931784F8C7 /* libPods-McProCoSys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20763430EBC888D3B79EFF66 /* libPods-McProCoSys.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		11E797485DB3D881A79964AF /* Pods-McProCoSys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.debug.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* McProCoSys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McProCoSys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = McProCoSys/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = McProCoSys/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = McProCoSys/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = McProCoSys/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = McProCoSys/main.m; sourceTree = "<group>"; };
+		1C5399D876A43342C1B4B916 /* Pods-McProCoSys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.debug.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.debug.xcconfig"; sourceTree = "<group>"; };
+		20763430EBC888D3B79EFF66 /* libPods-McProCoSys.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-McProCoSys.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B558E7725FFA67B00E85097 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCenterReactNativeCrashes.a; path = "../../procosys-app-mechanical-completion/ios/libAppCenterReactNativeCrashes.a"; sourceTree = "<group>"; };
-		5B558E7825FFA67B00E85097 /* libPods-McProCoSys.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-McProCoSys.a"; path = "../../../Library/Developer/Xcode/DerivedData/McProCoSys-fbpzdhulphwqygbtwjszwsrlioio/Build/Products/Debug-iphoneos/libPods-McProCoSys.a"; sourceTree = "<group>"; };
 		5B558E7925FFA67B00E85097 /* libRNFS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNFS.a; path = "../../procosys-app-mechanical-completion/ios/libRNFS.a"; sourceTree = "<group>"; };
 		5B558E7A25FFA67B00E85097 /* libReactNativeExceptionHandler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReactNativeExceptionHandler.a; path = "../../procosys-app-mechanical-completion/ios/libReactNativeExceptionHandler.a"; sourceTree = "<group>"; };
 		5B558E7B25FFA67B00E85097 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCenterReactNative.a; path = "../../procosys-app-mechanical-completion/ios/libAppCenterReactNative.a"; sourceTree = "<group>"; };
@@ -145,9 +146,8 @@
 		5BB3800125EF7BA000B9B95A /* CL-OK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CL-OK.png"; path = "../resources/images/status/CL-OK.png"; sourceTree = "<group>"; };
 		5BB3800E25EF7BF300B9B95A /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = McProCoSys/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.release.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F68ED47F472CF011187649E8 /* Pods-McProCoSys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McProCoSys.release.xcconfig"; path = "Target Support Files/Pods-McProCoSys/Pods-McProCoSys.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B55910425FFD29100E85097 /* JavaScriptCore.framework in Frameworks */,
+				D2B5ACA006A473931784F8C7 /* libPods-McProCoSys.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +166,8 @@
 		028C5A62634E6B6798AEC6CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				11E797485DB3D881A79964AF /* Pods-McProCoSys.debug.xcconfig */,
-				D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */,
+				1C5399D876A43342C1B4B916 /* Pods-McProCoSys.debug.xcconfig */,
+				F68ED47F472CF011187649E8 /* Pods-McProCoSys.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -189,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				20763430EBC888D3B79EFF66 /* libPods-McProCoSys.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -269,7 +270,6 @@
 				5B558E7B25FFA67B00E85097 /* libAppCenterReactNative.a */,
 				5B558E7F25FFA67B00E85097 /* libAppCenterReactNativeAnalytics.a */,
 				5B558E7725FFA67B00E85097 /* libAppCenterReactNativeCrashes.a */,
-				5B558E7825FFA67B00E85097 /* libPods-McProCoSys.a */,
 				5B558E7E25FFA67B00E85097 /* libRCTRestart.a */,
 				5B558E7A25FFA67B00E85097 /* libReactNativeExceptionHandler.a */,
 				5B558E8125FFA67B00E85097 /* libRNDeviceInfo.a */,
@@ -312,12 +312,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "McProCoSys" */;
 			buildPhases = (
-				EB61ED7BF1D3337E1FC3FB4A /* [CP] Check Pods Manifest.lock */,
+				F99222907D6AEDE5207F71E1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				696A71BA237FF1F7C5E5C37E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,7 +435,57 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		EB61ED7BF1D3337E1FC3FB4A /* [CP] Check Pods Manifest.lock */ = {
+		696A71BA237FF1F7C5E5C37E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-McProCoSys/Pods-McProCoSys-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-McProCoSys/Pods-McProCoSys-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99222907D6AEDE5207F71E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,7 +543,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E797485DB3D881A79964AF /* Pods-McProCoSys.debug.xcconfig */;
+			baseConfigurationReference = 1C5399D876A43342C1B4B916 /* Pods-McProCoSys.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -501,7 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = V6HQ25AD64;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = McProCoSys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -523,7 +574,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D136FEFE899BF235F7B7F4C0 /* Pods-McProCoSys.release.xcconfig */;
+			baseConfigurationReference = F68ED47F472CF011187649E8 /* Pods-McProCoSys.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -641,7 +692,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
