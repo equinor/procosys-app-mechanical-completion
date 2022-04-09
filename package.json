@@ -28,7 +28,7 @@
     "js-base64": "^2.5.2",
     "jwt-decode": "2.2.0",
     "lodash.isequal": "^4.5.0",
-    "moment": "2.20.1",
+    "moment": "2.29.2",
     "prop-types": "15.6.0",
     "qs": "^6.6.0",
     "react": "17.0.1",
