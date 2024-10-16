@@ -1,4 +1,7 @@
-# ProCoSys Mechanical Completion App
+# ProCoSys Mechanical Completion App (not in use)
+
+Deprecated. This repo has no code running in production. Running code is in another repo.
+
 
 ## Install
 ```bash
