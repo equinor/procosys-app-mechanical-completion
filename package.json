@@ -30,7 +30,7 @@
     "lodash.isequal": "^4.5.0",
     "moment": "2.20.1",
     "prop-types": "15.6.0",
-    "qs": "^6.6.0",
+    "qs": "^6.9.7",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "react-native-azure-ad": "https://github.com/Cnordbo/react-native-azure-ad/",
