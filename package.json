@@ -60,7 +60,7 @@
     "@babel/core": "^7.4.4",
     "@babel/runtime": "^7.4.4",
     "babel-jest": "^24.8.0",
-    "jest": "^24.8.0",
+    "jest": "^30.0.0",
     "jetifier": "^1.6.5",
     "metro-react-native-babel-preset": "^0.54.0",
     "react-native-version-up": "^1.0.9",
